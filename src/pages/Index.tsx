@@ -7,7 +7,7 @@ const Index: React.FC = () => {
 
             <div className="absolute top-[60px] md:w-[80%] md:left-[20%] md:top-0">
                 <img src="./images/manHoldingiPhoneMockup.png" alt="Man holding an iPhone" className="w-full h-[calc(100vh*0.5)] object-cover"/>
-                <h1 className="mx-20 my-16 hyphens-manual">
+                <h1 className="p-6 md:px-20 md:py-16 hyphens-manual">
                     Für mehr Freiheit, sichere Wege und mehr Selbsständigkeit in Deinem Alltag!
                 </h1>
                 <div className="w-full flex flex-col gap-4 justify-center items-center md:flex-row">
