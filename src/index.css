@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../public/fonts/Atkinson-Hyperlegible-Regular-102.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../public/fonts/Atkinson-Hyperlegible-Bold-102.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("../public/fonts/GeneralSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   @apply font-atkinsonRegular m-0 p-0 dark:bg-background-dm;
 }
