@@ -2,13 +2,14 @@ import React from 'react';
 
 type ButtonProps = {
     onClick: () => void,
+    classes?: string,
     children: React.ReactNode,
 };
 
-export function Button({children, onClick}: ButtonProps) {
+export function Button({children, classes, onClick}: ButtonProps) {
     return (
         <button
-            className="flex justify-center items-center text-[1.5rem] min-w-40 py-1 px-10 border-solid border-2 rounded-full border-white hover:bg-white hover:text-black lg:text-button lg:min-w-60"
+            className={`flex justify-center items-center bg-primary-color-lm px-5 py-2 rounded-button h-fit dark:bg-primary-color-dm ${classes}`}
             onClick={onClick}>{children}</button>
     );
 }
