@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-atkinsonRegular m-0 p-0;
+  @apply font-atkinsonRegular m-0 p-0 dark:bg-background-dm;
 }
 
 h1, .h1, h3 {
@@ -14,8 +14,16 @@ h2, .h2 {
   @apply text-primary-color-dm text-[24px] font-bold dark:text-primary-color-lm;
 }
 
-h3, p {
+h3{
   @apply text-[16px] font-bold;
+}
+
+p {
+  @apply text-[16px] text-primary-color-lm dark:text-primary-color-dm;
+}
+
+.background:has(p) p {
+  @apply text-primary-color-dm dark:text-primary-color-lm
 }
 
 button {
