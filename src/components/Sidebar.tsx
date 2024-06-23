@@ -11,10 +11,10 @@ export function Sidebar() {
 
     return (
         <div
-            className="w-full p-3 bg-primary-color-dm dark:bg-primary-color-lm flex flex-row items-center gap-4 z-10 md:items-start md:flex-col justify-between md:h-[100vh] md:w-[20%] fixed top-0 md:p-4 lg:p-6">
+            className="w-full p-3 bg-primary-color-dm dark:bg-primary-color-lm flex flex-row items-center gap-4 z-20 justify-between fixed top-0 md:py-3 md:px-6">
             <Link to="/"><img src={darkMode ? "./images/logo-light.svg" : "./images/logo-dark.svg"} alt="Toni Logo"
-                              className="w-[72px] md:w-3/4 md:mx-auto md:mb-6"/></Link>
-            <div className="flex-1"><Button onClick={() => toggleDarkMode()} classes="ml-auto md:ml-0"><VscColorMode className="text-primary-color-dm dark:text-primary-color-lm"/>Ansicht</Button>
+                              className="w-[72px] md:w-[140px]"/></Link>
+            <div className="flex-1"><Button onClick={() => toggleDarkMode()} classes="ml-auto"><VscColorMode className="text-primary-color-dm dark:text-primary-color-lm"/>Ansicht</Button>
             </div>
 
             <Button onClick={() => navigate("/impressum")}>Impressum</Button>

@@ -23,26 +23,30 @@
 }
 
 body {
-  @apply font-atkinsonRegular m-0 p-0 dark:bg-background-dm;
+  @apply font-atkinsonRegular m-0 p-0 dark:bg-primary-color-lm;
 }
 
-h1, .h1, h3 {
-  @apply text-primary-color-lm text-[36px] font-bold dark:text-primary-color-dm leading-tight;
+h1, h2, h3 {
+  @apply font-bold leading-tight;
 }
 
-h2, .h2 {
-  @apply text-primary-color-dm text-[24px] font-bold dark:text-primary-color-lm;
+h1 {
+  @apply text-[36px] text-primary-color-lm;
 }
 
-h3{
-  @apply text-[16px] font-bold;
+h2 {
+  @apply text-primary-color-lm dark:text-primary-color-dm text-[24px];
+}
+
+h3 {
+  @apply text-primary-color-lm dark:text-primary-color-dm text-[16px] font-bold;
 }
 
 p {
   @apply text-[16px] text-primary-color-lm dark:text-primary-color-dm;
 }
 
-.background:has(p) p {
+.background:has(p) p, .background:has(h2) h2 {
   @apply text-primary-color-dm dark:text-primary-color-lm
 }
 
@@ -80,10 +84,6 @@ button {
   h3, p, div {
     @apply text-[28px];
   }
-
-  button {
-    @apply text-[24px];
-  }
 }
 
 @screen xl {
@@ -92,11 +92,11 @@ button {
   }
 
   h2, .h2{
-    @apply text-[64px];
+    @apply text-[60px];
   }
 
   h3, p, div {
-    @apply text-[36px];
+    @apply text-[32px];
   }
 }
 
