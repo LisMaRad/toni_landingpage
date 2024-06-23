@@ -13,13 +13,13 @@ const Index: React.FC = () => {
 
     return (
         <div className="absolute top-0">
-            <div className="absolute w-full h-[100vh] flex items-center justify-end z-10 px-12">
+            <div className="absolute w-full h-[100vh] flex justify-start items-end md:items-center md:justify-end z-10 p-12 bg-white bg-opacity-50 md:bg-opacity-0">
                 <h1>Dein Weg.<br/>
                     Dein Klang.<br/>
                     Deine Freiheit.</h1>
             </div>
             <img src="./images/manHoldingiPhoneMockup.png" alt="Man holding an iPhone"
-                 className="relative w-full h-[100vh] object-cover"/>
+                 className="relative w-full h-[100vh] object-cover object-left-top"/>
             <h2 className="p-6 md:px-20 md:py-16 hyphens-manual">
                 Für mehr Freiheit, sichere Wege und mehr Selbstständigkeit in Deinem Alltag!
             </h2>
