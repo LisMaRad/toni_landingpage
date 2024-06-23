@@ -5,13 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {RouterProvider} from "react-router-dom";
 import {router} from "./routes/Routes";
+import {DarkModeProvider} from './contexts/DarkModeProvider';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
     <React.StrictMode>
-        <RouterProvider router={router} />
+        <DarkModeProvider>
+            <RouterProvider router={router}/>
+        </DarkModeProvider>
     </React.StrictMode>
 );
 

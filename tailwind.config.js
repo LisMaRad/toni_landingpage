@@ -17,7 +17,7 @@ module.exports = {
       'primary-color-dm': '#D9FBDE',
       'primary-color-lm': '#0A585C',
       'white': '#fff',
-      'background-dm': '#2a2a2a',
+      'background-dm': '#172621',
       'black': '#000',
     },
     fontFamily: {

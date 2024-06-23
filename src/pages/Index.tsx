@@ -2,26 +2,25 @@ import React from 'react';
 import {useNavigate} from "react-router-dom";
 import {Sidebar} from "../components/Sidebar";
 import {ImageAndText} from "../components/ImageAndText";
+import {Footer} from "../components/Footer";
 
 const Index: React.FC = () => {
     return (
-
         <div className="absolute top-[60px] md:w-[80%] md:left-[20%] md:top-0">
             <img src="./images/manHoldingiPhoneMockup.png" alt="Man holding an iPhone"
                  className="w-full h-[calc(100vh*0.5)] object-cover"/>
             <h1 className="p-6 md:px-20 md:py-16 hyphens-manual">
-                Für mehr Freiheit, sichere Wege und mehr Selbsständigkeit in Deinem Alltag!
+                Für mehr Freiheit, sichere Wege und mehr Selbstständigkeit in Deinem Alltag!
             </h1>
-            <div className="w-full flex flex-col gap-4 justify-center items-center p-6 md:flex-row">
+            <div className="w-full flex flex-col gap-12 justify-center items-center p-6 mb-12 xl:flex-row">
                 <img src="./images/deineRoute-iPhone-15-Pro-Mockup.png" alt="Mockup IPhone screen"
-                     className="h-[500px] object-cover"/>
-                <img src="./images/NavigationUebersicht.png" alt="Navigationsübersicht"
-                     className="h-[300px] object-cover drop-shadow-md"/>
-                <img src="./images/NavigationNavi.png" alt="Schritt für Schritt Navigation"
-                     className="h-[300px] object-cover drop-shadow-md"/>
-                <img src="./images/NavigationZiel_erreicht.png" alt="Ziel erreicht"
-                     className="h-[300px] object-cover drop-shadow-md"/>
-
+                     className="h-[500px] object-cover shadow-2xl shadow-black rounded-[40px]"/>
+                <div className="flex flex-col gap-4 md:flex-row"><img src="./images/NavigationUebersicht.png" alt="Navigationsübersicht"
+                          className="h-[300px] object-cover drop-shadow-md rounded-[25px]"/>
+                    <img src="./images/NavigationNavi.png" alt="Schritt für Schritt Navigation"
+                         className="h-[300px] object-cover drop-shadow-md rounded-[25px]"/>
+                    <img src="./images/NavigationZiel_erreicht.png" alt="Ziel erreicht"
+                         className="h-[300px] object-cover drop-shadow-md rounded-[25px]"/></div>
             </div>
             <div
                 className="w-full flex flex-col gap-4 p-6 md:px-20 md:py-16 bg-primary-color-lm dark:bg-primary-color-dm">
@@ -59,6 +58,7 @@ const Index: React.FC = () => {
                     <p>Speichere regelmäßige Ziele in deinen Favoriten. So kannst du mit nur einer Auswahl direkt dein Ziel ansteuern.</p>
                 </ImageAndText>
             </div>
+            <Footer />
 
         </div>
     )
