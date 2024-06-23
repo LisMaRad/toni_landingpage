@@ -54,6 +54,14 @@ button {
   @apply text-[16px] text-primary-color-dm dark:text-primary-color-lm;
 }
 
+.splide__pagination__page.is-active {
+  @apply !bg-orange-accent;
+}
+
+.splide__arrow svg {
+  @apply !fill-primary-color-lm;
+}
+
 
 @screen md {
   h1, .h1 {

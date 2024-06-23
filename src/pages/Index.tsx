@@ -4,9 +4,12 @@ import {Sidebar} from "../components/Sidebar";
 import {ImageAndText} from "../components/ImageAndText";
 import {Footer} from "../components/Footer";
 import {DarkModeContext} from "../contexts/DarkModeContext";
+// @ts-ignore
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 const Index: React.FC = () => {
-    const { darkMode } = useContext(DarkModeContext);
+    const {darkMode} = useContext(DarkModeContext);
 
     return (
         <div className="absolute top-0">
@@ -20,11 +23,35 @@ const Index: React.FC = () => {
             <h2 className="p-6 md:px-20 md:py-16 hyphens-manual">
                 Für mehr Freiheit, sichere Wege und mehr Selbstständigkeit in Deinem Alltag!
             </h2>
-            <div className="w-full flex flex-col gap-12 justify-center items-center p-6 mb-12 xl:flex-row">
+
+            <Splide className="xl:hidden w-full mb-8 md:w-1/2 md:mx-auto" aria-label="App Mockups">
+                <SplideSlide>
+                    <img src="./images/deineRoute-iPhone-15-Pro-Mockup.png" alt="Mockup IPhone screen"
+                         className="h-[500px] object-cover shadow-2xl shadow-black rounded-[40px] mx-auto my-20"/>
+                </SplideSlide>
+                <SplideSlide>
+                    <img src="./images/NavigationUebersicht.png"
+                         alt="Navigationsübersicht"
+                         className="h-[500px] object-cover shadow-2xl shadow-black rounded-[40px] mx-auto my-20"/>
+                </SplideSlide>
+                <SplideSlide>
+                    <img src="./images/NavigationNavi.png" alt="Schritt für Schritt Navigation"
+                         className="h-[500px] object-cover shadow-2xl shadow-black rounded-[40px] mx-auto my-20"/>
+                </SplideSlide>
+                <SplideSlide>
+                    <img src="./images/NavigationZiel_erreicht.png" alt="Ziel erreicht"
+                         className="h-[500px] object-cover shadow-2xl shadow-black rounded-[40px] mx-auto my-20"/>
+                </SplideSlide>
+            </Splide>
+
+
+            <div className="hidden w-full xl:flex flex-row gap-12 justify-center items-center p-6 mb-12">
                 <img src="./images/deineRoute-iPhone-15-Pro-Mockup.png" alt="Mockup IPhone screen"
                      className="h-[500px] object-cover shadow-2xl shadow-black rounded-[40px]"/>
-                <div className="flex flex-col gap-4 md:flex-row"><img src="./images/NavigationUebersicht.png" alt="Navigationsübersicht"
-                          className="h-[300px] object-cover drop-shadow-md rounded-[25px]"/>
+                <div className="flex flex-col gap-4 md:flex-row">
+                    <img src="./images/NavigationUebersicht.png"
+                                                                      alt="Navigationsübersicht"
+                                                                      className="h-[300px] object-cover drop-shadow-md rounded-[25px]"/>
                     <img src="./images/NavigationNavi.png" alt="Schritt für Schritt Navigation"
                          className="h-[300px] object-cover drop-shadow-md rounded-[25px]"/>
                     <img src="./images/NavigationZiel_erreicht.png" alt="Ziel erreicht"
@@ -53,20 +80,27 @@ const Index: React.FC = () => {
             </div>
             <div className="w-full flex flex-col gap-4 p-6 md:px-20 md:py-16">
                 <h2>Was ist das Besondere an Toni?</h2>
-                <ImageAndText image={darkMode ? "./images/bubbleOneDark.png" : "./images/bubbleOne.png"} alt="Schrittlänge personalisieren">
+                <ImageAndText image={darkMode ? "./images/bubbleOneDark.png" : "./images/bubbleOne.png"}
+                              alt="Schrittlänge personalisieren">
                     <h3 className="mb-2 md:mb-4 ">In der App kannst du deine exakte Schrittlänge konfigurieren.</h3>
-                    <p>Dies garantiert exakte Ansagen, wie viele Schritte deine Route beträgt oder in wie vielen Schritten eine Straße überquert werden muss.</p>
+                    <p>Dies garantiert exakte Ansagen, wie viele Schritte deine Route beträgt oder in wie vielen
+                        Schritten eine Straße überquert werden muss.</p>
                 </ImageAndText>
-                <ImageAndText image={darkMode ? "./images/bubbleTwoDark.png" : "./images/bubbleTwo.png"} alt="Navigationsübersicht">
+                <ImageAndText image={darkMode ? "./images/bubbleTwoDark.png" : "./images/bubbleTwo.png"}
+                              alt="Navigationsübersicht">
                     <h3 className="mb-2 md:mb-4 ">Wähle deine Lieblingsstimme, die dich an dein Ziel bringen soll.</h3>
-                    <p>Du kannst nicht nur die Stimme wählen, der du am liebsten zu hörst, personalisiere auch die Geschwindigkeit deiner Ansagen.</p>
+                    <p>Du kannst nicht nur die Stimme wählen, der du am liebsten zu hörst, personalisiere auch die
+                        Geschwindigkeit deiner Ansagen.</p>
                 </ImageAndText>
-                <ImageAndText image={darkMode ? "./images/bubbleThreeDark.png" : "./images/bubbleThree.png"} alt="Navigationsübersicht">
-                    <h3 className="mb-2 md:mb-4 ">Deine Favoriten machen es dir leicht regelmäßigen Ziele zu erreichen.</h3>
-                    <p>Speichere regelmäßige Ziele in deinen Favoriten. So kannst du mit nur einer Auswahl direkt dein Ziel ansteuern.</p>
+                <ImageAndText image={darkMode ? "./images/bubbleThreeDark.png" : "./images/bubbleThree.png"}
+                              alt="Navigationsübersicht">
+                    <h3 className="mb-2 md:mb-4 ">Deine Favoriten machen es dir leicht regelmäßigen Ziele zu
+                        erreichen.</h3>
+                    <p>Speichere regelmäßige Ziele in deinen Favoriten. So kannst du mit nur einer Auswahl direkt dein
+                        Ziel ansteuern.</p>
                 </ImageAndText>
             </div>
-            <Footer />
+            <Footer/>
 
         </div>
     )
