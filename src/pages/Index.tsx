@@ -20,11 +20,11 @@ const Index: React.FC = () => {
             </div>
             <img src="./images/manHoldingiPhoneMockup.png" alt="Man holding an iPhone"
                  className="relative w-full h-[100vh] object-cover object-left-top"/>
-            <h2 className="p-6 md:px-20 md:py-16 hyphens-manual">
+            <h2 className="p-6 md:py-20 md:px-[15%] hyphens-manual">
                 Für mehr Freiheit, sichere Wege und mehr Selbstständigkeit in Deinem Alltag!
             </h2>
 
-            <Splide className="xl:hidden w-full mb-8 md:w-1/2 md:mx-auto" aria-label="App Mockups">
+            <Splide className="xl:hidden w-full mb-10 md:w-1/2 md:mx-auto" aria-label="App Mockups">
                 <SplideSlide>
                     <img src="./images/deineRoute-iPhone-15-Pro-Mockup.png" alt="Mockup IPhone screen"
                          className="h-[500px] object-cover shadow-2xl shadow-black rounded-[40px] mx-auto my-20"/>
@@ -58,7 +58,7 @@ const Index: React.FC = () => {
                          className="h-[300px] object-cover drop-shadow-md rounded-[25px]"/></div>
             </div>
             <div
-                className="w-full flex flex-col gap-4 p-6 md:px-20 md:py-16 bg-primary-color-lm dark:bg-primary-color-dm background">
+                className="w-full flex flex-col gap-4 p-6 md:px-[15%] md:py-20 bg-primary-color-lm dark:bg-primary-color-dm background">
                 <h2>Deine Schritte, Deine Stimme, Dein Weg</h2>
                 <div className="flex flex-col gap-10 justify-center items-center lg:flex-row">
                     <img src="./images/ProfiliPhone15ProMockup.png" alt="Mockup IPhone screen"
@@ -68,7 +68,7 @@ const Index: React.FC = () => {
                         Wegbeschreibung zu erhalten!</p>
                 </div>
             </div>
-            <div className="w-full flex flex-col gap-4 p-6 md:px-20 md:py-16">
+            <div className="w-full flex flex-col gap-4 p-6 md:px-[15%] md:py-20">
                 <h2>Was ist Toni?</h2>
                 <div className="flex flex-col gap-10 lg:flex-row">
                     <p className="md:w-1/2">Toni ist eine Navigations-App für Sehbeeinträchtigte Personen.<br/>
@@ -78,7 +78,7 @@ const Index: React.FC = () => {
                         ankommt, um Menschen, die sich auf all ihre Sinne verlassen müssen, sicher und zielgerichtet von
                         A nach B zu bringen. </p></div>
             </div>
-            <div className="w-full flex flex-col items-start gap-4 p-6 md:px-20 md:py-16">
+            <div className="w-full flex flex-col items-start gap-4 p-6 md:px-[15%] md:py-20">
                 <h2>Was ist das Besondere an Toni?</h2>
                 <ImageAndText image={darkMode ? "./images/bubbleOneDark.png" : "./images/bubbleOne.png"}
                               alt="Schrittlänge personalisieren">
