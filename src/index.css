@@ -55,7 +55,7 @@ button {
 }
 
 .splide__pagination__page.is-active {
-  @apply !bg-orange-accent;
+  @apply !bg-orange-accent opacity-100;
 }
 
 .splide__arrow svg {
