@@ -5,7 +5,7 @@ import {Footer} from "../components/Footer";
 
 const Impressum: React.FC = () => {
     return (
-        <div className="absolute top-[60px] flex flex-col justify-between h-[calc(100%-60px)]">
+        <div className="absolute w-full top-[60px] flex flex-col justify-between h-[calc(100%-60px)]">
             <div className="p-6 md:px-20 md:py-16">
                 <h1 className="dark:text-primary-color-dm">Impressum</h1>
                 <p>Informationspflicht laut § 5 E-Commerce Gesetz, Offenlegungspflicht laut §25 Mediengesetz.</p>

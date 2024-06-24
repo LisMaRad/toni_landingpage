@@ -13,7 +13,7 @@ const Index: React.FC = () => {
 
     return (
         <div className="absolute top-0">
-            <div className="absolute w-full h-[100vh] flex justify-start items-end md:items-center md:justify-end z-10 p-12 bg-white bg-opacity-50 md:bg-opacity-0">
+            <div className="absolute w-full h-[100vh] flex justify-start items-end md:items-center md:justify-end z-10 p-12 bg-white bg-opacity-50 md:bg-opacity-0 md:!px-[15%]">
                 <h1>Dein Weg.<br/>
                     Dein Klang.<br/>
                     Deine Freiheit.</h1>
