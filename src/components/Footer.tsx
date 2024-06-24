@@ -10,7 +10,7 @@ export function Footer() {
         <div className="w-full flex justify-center items-center sm:items-end gap-8 bg-primary-color-lm dark:bg-primary-color-dm p-6">
             <img src={darkMode ? "./images/logo-dark.svg" : "./images/logo-light.svg"} alt="Toni Logo"
                  className="w-[100px] md:w-[200px]"/>
-            <h2 className="!text-orange-accent sm:pb-1 md:pb-2 xl:pb-0">Bald in eurem App Store!</h2>
+            <h2 className="!text-orange-accent sm:pb-1 md:pb-2 lg:pb-0 xl:pb-2">Bald in eurem App Store!</h2>
         </div>
     );
 }
