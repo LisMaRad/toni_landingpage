@@ -63,7 +63,7 @@ const Index: React.FC = () => {
                 <div className="flex flex-col gap-10 justify-center items-center lg:flex-row">
                     <img src="./images/ProfiliPhone15ProMockup.png" alt="Mockup IPhone screen"
                          className="md:w-1/2 h-auto object-cover"/>
-                    <p>Um Toni optimal zu nutzen, kannst du dein Profil exakt auf dich einrichten.<br/>Wähle deine
+                    <p className="md:w-1/2">Um Toni optimal zu nutzen, kannst du dein Profil exakt auf dich einrichten.<br/>Wähle deine
                         Lieblingsstimme aus und richte deine persönliche Schrittlänge ein, um eine exakte
                         Wegbeschreibung zu erhalten!</p>
                 </div>
@@ -71,14 +71,14 @@ const Index: React.FC = () => {
             <div className="w-full flex flex-col gap-4 p-6 md:px-20 md:py-16">
                 <h2>Was ist Toni?</h2>
                 <div className="flex flex-col gap-10 lg:flex-row">
-                    <p>Toni ist eine Navigations-App für Sehbeeinträchtigte Personen.<br/>
+                    <p className="md:w-1/2">Toni ist eine Navigations-App für Sehbeeinträchtigte Personen.<br/>
                         Um auch Menschen mit Sehbeeinträchtigung eine sichere und präzise Navigation zu gewährleisten,
                         haben wir es uns zur Aufgabe gemacht diese Anforderungen mit Toni zu erfüllen.</p>
-                    <p>In engem Austausch mit betroffenen Personen haben wir herausgefunden, auf welche Attribute es
+                    <p className="md:w-1/2">In engem Austausch mit betroffenen Personen haben wir herausgefunden, auf welche Attribute es
                         ankommt, um Menschen, die sich auf all ihre Sinne verlassen müssen, sicher und zielgerichtet von
                         A nach B zu bringen. </p></div>
             </div>
-            <div className="w-full flex flex-col gap-4 p-6 md:px-20 md:py-16">
+            <div className="w-full flex flex-col items-start gap-4 p-6 md:px-20 md:py-16">
                 <h2>Was ist das Besondere an Toni?</h2>
                 <ImageAndText image={darkMode ? "./images/bubbleOneDark.png" : "./images/bubbleOne.png"}
                               alt="Schrittlänge personalisieren">
