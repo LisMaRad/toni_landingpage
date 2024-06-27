@@ -3,108 +3,117 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Atkinson Hyperlegible";
-  src: url("../public/fonts/Atkinson-Hyperlegible-Regular-102.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Atkinson Hyperlegible";
-  src: url("../public/fonts/Atkinson-Hyperlegible-Bold-102.ttf");
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Atkinson Hyperlegible";
+    src: url("../public/fonts/Atkinson-Hyperlegible-Regular-102.ttf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "General Sans";
-  src: url("../public/fonts/GeneralSans-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Atkinson Hyperlegible";
+    src: url("../public/fonts/Atkinson-Hyperlegible-Bold-102.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "General Sans";
+    src: url("../public/fonts/GeneralSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.noto-serif-kr-regular {
+    font-family: "Noto Serif KR", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
-  @apply font-atkinsonRegular m-0 p-0 dark:bg-primary-color-lm;
+    @apply font-atkinsonRegular m-0 p-0 dark:bg-primary-color-lm;
 }
 
 h1, h2, h3 {
-  @apply font-bold leading-tight;
+    @apply font-bold leading-tight;
 }
 
 h1 {
-  @apply text-[36px] text-primary-color-lm;
+    @apply text-[36px] text-primary-color-lm;
 }
 
 h2 {
-  @apply text-primary-color-lm dark:text-primary-color-dm text-[24px];
+    @apply text-primary-color-lm dark:text-primary-color-dm text-[24px];
 }
 
 h3 {
-  @apply text-primary-color-lm dark:text-primary-color-dm text-[16px] font-bold;
+    @apply text-primary-color-lm dark:text-primary-color-dm text-[16px] font-bold;
 }
 
 p {
-  @apply text-[16px] text-primary-color-lm dark:text-primary-color-dm;
+    @apply text-[16px] text-primary-color-lm dark:text-primary-color-dm;
 }
 
 .background:has(p) p, .background:has(h2) h2 {
-  @apply text-primary-color-dm dark:text-primary-color-lm
+    @apply text-primary-color-dm dark:text-primary-color-lm
 }
 
 button {
-  @apply text-[16px] text-primary-color-dm dark:text-primary-color-lm;
+    @apply text-[16px] text-primary-color-dm dark:text-primary-color-lm;
 }
 
 .splide__pagination__page.is-active {
-  @apply !bg-orange-accent opacity-100;
+    @apply !bg-orange-accent opacity-100;
 }
 
 .splide__arrow svg {
-  @apply !fill-primary-color-lm;
+    @apply !fill-primary-color-lm;
 }
 
 
 @screen md {
-  h1, .h1 {
-    @apply text-[48px];
-  }
+    h1, .h1 {
+        @apply text-[48px];
+    }
 
-  h2, .h2{
-    @apply text-[36px];
-  }
+    h2, .h2 {
+        @apply text-[36px];
+    }
 
-  h3, p, div {
-    @apply text-[24px];
-  }
-  button {
-    @apply text-[18px];
-  }
+    h3, p, div {
+        @apply text-[24px];
+    }
+
+    button {
+        @apply text-[18px];
+    }
 }
 
 @screen lg {
-  h1, .h1 {
-    @apply text-[64px];
-  }
+    h1, .h1 {
+        @apply text-[64px];
+    }
 
-  h2, .h2{
-    @apply text-[48px];
-  }
+    h2, .h2 {
+        @apply text-[48px];
+    }
 
-  h3, p, div {
-    @apply text-[28px];
-  }
+    h3, p, div {
+        @apply text-[28px];
+    }
 }
 
 @screen xl {
-  h1, .h1 {
-    @apply text-[80px];
-  }
+    h1, .h1 {
+        @apply text-[80px];
+    }
 
-  h2, .h2{
-    @apply text-[60px];
-  }
+    h2, .h2 {
+        @apply text-[60px];
+    }
 
-  h3, p, div {
-    @apply text-[32px];
-  }
+    h3, p, div {
+        @apply text-[32px];
+    }
 }
 
