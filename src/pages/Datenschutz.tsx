@@ -11,7 +11,7 @@ const Datenschutz: React.FC = () => {
             </h2>
             <div>
                 <p className="p-6 md:py-8 md:px-[15%] hyphens-manual">
-                    Diese Website wird von der toni GesbR, Michael-Pacher-Straße 38, 5020 Salzburg („wir“ bzw. „uns“) betrieben.
+                    Diese Website wird von der hearow GesbR, Michael-Pacher-Straße 38, 5020 Salzburg („wir“ bzw. „uns“) betrieben.
                     Diese Mitteilung beschreibt wie wir, als datenschutzrechtlich Verantwortlicher, Ihre personenbezogenen Daten
                     im Zusammenhang mit dieser Website verarbeiten.<br/><br/>
 
@@ -88,7 +88,7 @@ const Datenschutz: React.FC = () => {
                     personenbezogenen Daten jedoch nur in Länder, für welche die EU-Kommission entschieden hat, dass sie über ein angemessenes
                     Datenschutzniveau verfügen oder wir setzen Maßnahmen, um zu gewährleisten, dass alle Empfänger ein angemessenes
                     Datenschutzniveau haben. Dazu schließen wir beispielsweise Standardvertragsklauseln (2010/87/ EC und/oder 2004/915/EC) ab.
-                    Diese sind auf Anfrage <a className={"underline hover:text-orange-accent"} href="mailto:toni.navigation@gmail.com">toni.navigation@gmail.com</a> verfügbar.<br/><br/>
+                    Diese sind auf Anfrage <a className={"underline hover:text-orange-accent"} href="mailto:hearow.nav@gmail.com">hearow.nav@gmail.com</a> verfügbar.<br/><br/>
 
                     Wir haben unsere Partner sorgfältig ausgewählt. Unsere Partner sorgen durch geeignete technische und organisatorische
                     Maßnahmen dafür, dass die Verarbeitung Ihrer Daten im Einklang mit den datenschutzrechtlichen Vorgaben erfolgt und die
@@ -132,9 +132,9 @@ const Datenschutz: React.FC = () => {
 
                     Sollten Sie zu der Verarbeitung Ihrer personenbezogenen Daten Fragen oder Anliegen haben, wenden Sie sich bitte an uns:<br/><br/>
 
-                    toni GesbR<br/>
+                    hearow GesbR<br/>
                     Mobil: <a className={"underline hover:text-orange-accent"} href="tel:+4915175059609">+49 151 75 05 96 09</a><br/>
-                    E-Mail: <a className={"underline hover:text-orange-accent"} href="mailto:toni.navigation@gmail.com">toni.navigation@gmail.com</a><br/><br/>
+                    E-Mail: <a className={"underline hover:text-orange-accent"} href="mailto:hearow.nav@gmail.com">hearow.nav@gmail.com</a><br/><br/>
 
 
 

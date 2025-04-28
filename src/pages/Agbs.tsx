@@ -21,13 +21,13 @@ const Agbs: React.FC = () => {
                     Urstein Süd 3, 5412 Puch<br/><br/>
                     Julian, Fleig, 21.06.1997<br/>
                     Erentrudisstraße 19, 5020 Salzburg<br/><br/>
-                    als toni GesbR (im Folgenden „Anbieter“ genannt)<br/><br/>
-                    E-Mail: <a className={"underline hover:text-orange-accent"} href="mailto:toni.navigation@gmail.com">toni.navigation@gmail.com</a><br/>
+                    als hearow GesbR (im Folgenden „Anbieter“ genannt)<br/><br/>
+                    E-Mail: <a className={"underline hover:text-orange-accent"} href="mailto:hearow.nav@gmail.com">hearow.nav@gmail.com</a><br/>
                 </p>
 
                 <p className="p-6 md:py-8 md:px-[15%] hyphens-manual">
                 <b>Präambel</b><br/>
-                    Bei der „toni App“ handelt es sich um einen Service, bei dem Kunden Navigationsdienstleistungen angeboten werden.
+                    Bei der „hearow App“ handelt es sich um einen Service, bei dem Kunden Navigationsdienstleistungen angeboten werden.
                     Dazu können sich Kunden die App auf ihrem Smartphone installieren und für die Freischaltung zusätzlicher Funktionen
                     registrieren oder die App als Gastnutzer verwenden. In der App, die den Standpunkt des Kunden (nachstehend auch: Vertragspartner)
                     ermittelt, lässt sich der gewünschte Zielort auswählen und wird der Kunde daraufhin an den gewünschten Zielort navigiert.<br/><br/>
@@ -45,7 +45,7 @@ const Agbs: React.FC = () => {
                         <li className="list-decimal">Gegenüber Konsumenten gelten die nachstehenden Regelungen nur, sofern sie nicht zwingenden gesetzlichen Vorgaben
                             (insbes. Konsumentenschutzbestimmungen) entgegenstehen.</li><br/>
                         <li className="list-decimal">Einen integrativen Bestandteil dieser AGB stellen auch die Nutzungsbedingungen dar, welche unter
-                            <a className={"underline hover:text-orange-accent"} href="https://toni-navigation.at/nutzungsbedingungen"> Nutzungsbedingungen </a>abrufbar sind.</li><br/>
+                            <a className={"underline hover:text-orange-accent"} href="https://hearow-nav.com/nutzungsbedingungen"> Nutzungsbedingungen </a>abrufbar sind.</li><br/>
                     </ul>
                 </p>
 
@@ -113,7 +113,7 @@ const Agbs: React.FC = () => {
                         <li className="list-decimal">Die Leistungen (Service) des Anbieters umfassen:</li><br/>
                         <ul className={"px-12"}>
                             <li className="list-decimal">Bereitstellung des Services;</li><br/>
-                            <li className="list-decimal">Bereitstellung der „toni App“;</li><br/>
+                            <li className="list-decimal">Bereitstellung der „hearow App“;</li><br/>
                         </ul>
                         <li className="list-none">Im Hinblick auf die technische und wirtschaftliche Entwicklung des Internets, auf gesetzliche Vorschriften oder auf gesetzlichen Anforderungen sowie auf die Weiterentwicklungen eigener und dritter Produkte ist der Anbieter jederzeit berechtigt, Änderungen an den von ihm erbrachten Leistungen (Service) vorzunehmen.</li><br/>
                     </ul>
@@ -136,7 +136,7 @@ const Agbs: React.FC = () => {
                             Der Vertragspartner haftet für Schäden, die dem Anbieter durch mangelhafte Geheimhaltung der Zugangsdaten durch den Vertragspartner oder durch Weitergabe an Dritte, durch nicht rechtzeitige Meldung eines entsprechenden Verdachtes, dass Daten unbefugten Dritten bekannt geworden sein könnten, oder durch nicht erfolgte Absicherung seiner Endgeräte und Systeme entstehen.</li><br/>
                         <li className="list-decimal">Der Vertragspartner verpflichtet sich, die vom Anbieter erbrachten Leistungen (Service) bestimmungsgemäß zu nutzen und bei deren Nutzung Handlungen zu unterlassen, die Anbieter und/oder andere Vertragspartner schaden oder gefährden und/oder die die Verfügbarkeit der Leistungen (Service) für andere Vertragspartner einschränken könnten. Unter bestimmungsgemäße Nutzung fällt auch die Einhaltung aller Hinweise, Empfehlungen und ähnliches, die der Anbieter zum Zeitpunkt des Vertragsabschlusses oder danach dem Vertragspartner zur Verfügung gestellten Unterlagen ausführt.</li><br/>
                         <li className="list-decimal">Der Vertragspartner sichert zu, keine Daten in die Anbieter-Datenbank zu laden, die Viren (infizierte Software) oder Software und Inhalte, an denen Dritte Urheberrechte haben (es sei denn, der Vertragspartner hat die erforderlichen Rechte daran oder die Zustimmung des Berechtigten), enthalten.</li><br/>
-                        <li className="list-decimal">Der Vertragspartner ist verpflichtet, sich laufend über die „toni App“ oder die Homepage <a className={"underline hover:text-orange-accent"} href="https://toni-navigation.at">www.toni-navigation.at</a> des Anbieters über geplante Wartungsarbeiten zu informieren.</li><br/>
+                        <li className="list-decimal">Der Vertragspartner ist verpflichtet, sich laufend über die „hearow App“ oder die Homepage <a className={"underline hover:text-orange-accent"} href="https://hearow-nav.com">www.hearow-nav.com</a> des Anbieters über geplante Wartungsarbeiten zu informieren.</li><br/>
                     </ul>
                 </p>
 
@@ -227,13 +227,13 @@ const Agbs: React.FC = () => {
                         <i>Widerrufsbelehrung</i><br/><br/>
                         Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.<br/><br/>
                         Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.<br/><br/>
-                        Um Ihr Widerrufsrecht auszuüben, müssen Sie uns <a className={"underline hover:text-orange-accent"} href="mailto:toni.navigation@gmail.com">toni.navigation@gmail.com</a> mittels einer eindeutigen Erklärung (z. B. mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.<br/><br/>
+                        Um Ihr Widerrufsrecht auszuüben, müssen Sie uns <a className={"underline hover:text-orange-accent"} href="mailto:hearow.nav@gmail.com">hearow.nav@gmail.com</a> mittels einer eindeutigen Erklärung (z. B. mit der Post versandter Brief oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.<br/><br/>
                         Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.<br/><br/>
                         <i>Folgen des Widerrufs</i><br/><br/>
                         Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns
                         eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.<br/><br/>
                         Haben Sie verlangt, dass die Dienstleistungen während der Widerrufsfrist beginnen soll, so haben Sie uns einen angemessenen Betrag zu zahlen, der dem Anteil der bis zu dem Zeitpunkt, zu dem Sie uns von der Ausübung des Widerrufsrechts hinsichtlich dieses Vertrags unterrichten, bereits erbrachten Dienstleistungen im Vergleich zum Gesamtumfang der im Vertrag vorgesehenen Dienstleistungen entspricht.<br/><br/>
-                        <a className={"underline hover:text-orange-accent"} href="https://toni-navigation.at/widerrufsformular">Muster Widerrufsformular</a><br/><br/>
+                        <a className={"underline hover:text-orange-accent"} href="https://hearow-nav.com/widerrufsformular">Muster Widerrufsformular</a><br/><br/>
                         Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.<br/><br/>
                         <i>Ausnahmen vom Widerruf</i><br/><br/>
                         Auf die Ausnahmen vom Rücktrittsrecht gemäß § 18 FAGG wird hingewiesen. So besteht insbesondere dann kein Rücktrittsrecht, wenn der Unternehmer die Dienstleistung vollständig erbracht hat und der Verbraucher nach dem Vertrag zu einer Zahlung verpflichtet ist und der Unternehmer mit der vorherigen ausdrücklichen Zustimmung des Verbrauchers mit der Vertragserfüllung begonnen hat, sofern der Verbraucher vor Beginn der Dienstleistungserbringung bestätigt hat, zur Kenntnis genommen zu haben, dass er sein Rücktrittsrecht mit vollständiger Vertragserfüllung verliert. Ein Rücktrittsrecht entfällt ferner bei der Bereitstellung von digitalen Inhalten,
