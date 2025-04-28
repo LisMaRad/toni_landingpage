@@ -25,7 +25,7 @@ const Index: React.FC = () => {
             <Splide className="xl:hidden w-full mb-10 md:w-1/2 md:mx-auto" aria-label="App Mockups">
                 <SplideSlide>
                     <img src="./images/Mockup_einzelnes Handy.png" alt="Mockup IPhone screen"
-                         className="h-[500px] object-cover shadow-2xl shadow-black rounded-[40px] mx-auto my-20"/>
+                         className="h-[500px] object-cover mx-auto my-20"/>
                 </SplideSlide>
                 <SplideSlide>
                     <img src="./images/NavigationSearch.png"
